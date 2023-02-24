@@ -56,3 +56,26 @@ li:hover{
 #header img::-webkit-scrollbar{
     width: 0%;
 }
+
+/* ? при загрузке на гитхаб */
+/* ? git init  */
+/* ? git add . */
+/* ? git commit -m "init" */
+/* ? Последние 3 ссылки  */
+
+
+/* ? при обновления на гитхаб */
+/* ? git init  */
+/* ? git add . */
+/* ? git commit -m "update" */
+/* ? git push origin main */
+
+
+/* ? при получения репазитория от гитхаба */
+/* ? git clone ссылка */
+
+/*? получаем измененый репазитория от гитхаба */
+/*? git init  */
+/*? git add . */
+/*? git commit -m "update" */
+/*? git pull origin main  */
