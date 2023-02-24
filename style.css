@@ -1,60 +1,64 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+/* ? на вес сайт уберет  skrolbar */
+::-webkit-scrollbar {
+  width: 0;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #nav {
-    background-color: #33333333;
-    position: sticky;
-    width: 100%;
-    top: 0;
+  background-color: #33333333;
+  position: sticky;
+  width: 100%;
+  top: 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .menu {
-    display: grid;
-    width: 60%;
-    grid-template-columns: repeat(4, 4fr);
-    text-align: center;
+  display: grid;
+  width: 60%;
+  grid-template-columns: repeat(4, 4fr);
+  text-align: center;
 }
 li {
-    padding: 10px 0;
+  padding: 10px 0;
 }
-li:hover{
-    color: #fff;
-    padding: 10px 0;
-    background-color: red;
+li:hover {
+  color: #fff;
+  padding: 10px 0;
+  background-color: red;
 }
-
 
 /*? header  */
 
 #header {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    overflow: scroll;
-    grid-gap:20px;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  overflow: scroll;
+  grid-gap: 20px;
 }
 
-#header img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+#header img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
-#header img::-webkit-scrollbar{
-    width: 0%;
+/* ? уберет skrol  для одного контента */
+#header::-webkit-scrollbar{
+    width: 0;
 }
 
 /* ? при загрузке на гитхаб */
@@ -63,13 +67,11 @@ li:hover{
 /* ? git commit -m "init" */
 /* ? Последние 3 ссылки  */
 
-
 /* ? при обновления на гитхаб */
 /* ? git init  */
 /* ? git add . */
 /* ? git commit -m "update" */
 /* ? git push origin main */
-
 
 /* ? при получения репазитория от гитхаба */
 /* ? git clone ссылка */
